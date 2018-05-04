@@ -8,7 +8,36 @@ var myModel = {
 var myViewModel = new Vue({
     el: '#my_view',
     data: {
-        posts: [],
+        posts: [{
+            id: "0",
+            user_id: "0",
+            contents: "hoge",
+            unixtime: 24
+        },
+        {
+            id: "0",
+            user_id: "0",
+            contents: "hoge",
+            unixtime: 24
+        },
+        {
+            id: "0",
+            user_id: "0",
+            contents: "hoge",
+            unixtime: 24
+        },
+        {
+            id: "0",
+            user_id: "0",
+            contents: "hoge",
+            unixtime: 24
+        },
+        {
+            id: "0",
+            user_id: "0",
+            contents: "hoge",
+            unixtime: 24
+        }],
         new_post : {
             message: "",
             user_id: 0
